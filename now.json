@@ -1,1 +1,1 @@
-{"version":2,"name":"archillect-api","alias":"archillect-api","engines":{"node":"^10.0.0"},"builds":[{"src":"index.js","use":"@now/node"}]}
+{"version":2,"name":"archi-api","alias":"archi-api","builds":[{"src":"index.js","use":"@now/node"}]}
