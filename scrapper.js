@@ -9,7 +9,7 @@ class ArchillectScrapper {
   async getMax() {
     const res = await scrapeIt(this.baseUrl, {
       max: {
-        selector: 'div#container > a',
+        selector: 'section#posts > a',
         attr: 'href',
         convert: x => x.replace('/', ''),
       },
