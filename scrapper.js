@@ -80,7 +80,7 @@ class ArchillectScrapper {
 
   async visualsRoute(per = 20) {
     per = Number(per)
-    if (!Number.isInteger(per)) return { error: 'The per query should be an integer' }
+    if (!Number.isInteger(per)) return { error: 'The per query should be an integer.' }
     if (per < 1) return { error: 'The per query should be bigger than 0' }
     if (per > 200) return { error: 'You cannot get more than 200 visuals' }
 
