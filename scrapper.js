@@ -21,7 +21,7 @@ class ArchillectScrapper {
   async getImageSources(id) {
     const res = await scrapeIt(`${this.baseUrl}/${id}`, {
       imageSource: {
-        selector: 'img#ii',
+        selector: 'div#imgnav > img',
         attr: 'src',
       },
       sourceLinks: {
