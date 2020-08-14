@@ -1,8 +1,0 @@
-{
-  "version":2,
-  "name":"arch-api",
-  "alias":"arch-api",
-  "builds": [
-    { "src": "*", "use": "@vercel/node" }
-  ]
-}
