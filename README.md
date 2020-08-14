@@ -4,7 +4,7 @@
 
 It brings a list of the lastest 20 visuals by default
 
-> GET [https://archillect-api.now.sh/visuals](https://archillect-api.now.sh/visuals)
+> GET [https://arch-api.vercel.app/visuals](https://arch-api.vercel.app/visuals)
 
 Example response:
 
@@ -28,13 +28,13 @@ Example response:
 You could also ask for a number of the latest visuals through the `per` query.
 With 200 maximum.
 
-> GET [https://archillect-api.now.sh/visuals?per=120](https://archillect-api.now.sh/visuals?per=120)
+> GET [https://arch-api.vercel.app/visuals?per=120](https://arch-api.vercel.app/visuals?per=120)
 
 ### Get an id
 
 Brings one visual id specified
 
-> GET [https://archillect-api.now.sh/visuals/147836](https://archillect-api.now.sh/visuals/147836)
+> GET [https://arch-api.vercel.app/147836](https://arch-api.vercel.app/visuals/147836)
 
 Example esponse:
 
@@ -53,7 +53,7 @@ Example esponse:
 
 Brings one random visual
 
-> GET [https://archillect-api.now.sh/random](https://archillect-api.now.sh/random)
+> GET [https://arch-api.vercel.app/random](https://arch-api.vercel.app/random)
 
 Example esponse:
 
