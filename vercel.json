@@ -3,6 +3,6 @@
   "name":"arch-api",
   "alias":"arch-api",
   "builds": [
-    { "src": "*.js", "use": "@vercel/node" }
+    { "src": "*", "use": "@vercel/node" }
   ]
 }
